@@ -7,6 +7,17 @@
         {
             "matchCategories": ["docker"],
             "groupName": "all docker dependencies"
+        },
+        {
+            // single dep with commitMessageExtra
+            "matchPackageNames": ["lodash"],
+            "commitMessageExtra": "(new lodash)"
+        },
+        {
+            // single group dep with commitMessageExtra
+            "matchPackageNames": ["commander"],
+            "groupName": "commander group",
+            "commitMessageExtra": "(new commander)"
         }
     ]
 }
